@@ -1,0 +1,11 @@
+{
+    "name": "service-binaries",
+    "description": "service-binaries component",
+    "local": [],
+    "scripts": ["index.js"],
+    "main": "index.js",
+    "dependencies": {
+        "serandomps/utils": "master",
+        "serandomps/serand": "master"
+    }
+}
