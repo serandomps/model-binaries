@@ -1,6 +1,6 @@
 {
-    "name": "service-binaries",
-    "description": "service-binaries component",
+    "name": "model-binaries",
+    "description": "model-binaries component",
     "local": [],
     "scripts": ["index.js"],
     "main": "index.js",

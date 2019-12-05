@@ -1,1 +1,1 @@
-# service-binaries
+# model-binaries

@@ -33,8 +33,7 @@ exports.create = function (binary, done) {
             url: utils.resolve('www:///apis/v/binaries'),
             dataType: 'json',
             success: function (data) {
-                makes = data;
-                ran(null, makes);
+                ran(null, data);
             },
             error: function (xhr, status, err) {
                 ran(err || status || xhr);
