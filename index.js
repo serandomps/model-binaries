@@ -30,7 +30,7 @@ exports.create = function (binary, done) {
         });
         $.ajax({
             method: 'POST',
-            url: utils.resolve('www:///apis/v/binaries'),
+            url: utils.resolve('apis:///v/binaries'),
             dataType: 'json',
             success: function (data) {
                 ran(null, data);
